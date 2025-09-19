@@ -43,7 +43,7 @@ export const useSocketStore = defineStore('socket', () => {
     try {
       connecting.value = true
 
-      socket.value = io(import.meta.env.VITE_SOCKET_URL || 'http://localhost:3000', {
+      socket.value = io(import.meta.env.VITE_SOCKET_URL, {
         auth: { token: authStore.token },
         transports: ['websocket', 'polling'],
         timeout: 10000,

@@ -21,7 +21,7 @@ const routes = [
     name: 'home',
     component: Home,
     meta: {
-      requiresAuth: true,
+      //requiresAuth: true,
       title: 'Inicio'
     }
   },
@@ -57,7 +57,7 @@ const routes = [
     name: 'profile',
     component: Profile,
     meta: {
-      requiresAuth: true,
+      //requiresAuth: true,
       title: 'Mi Perfil'
     }
   },
@@ -66,7 +66,7 @@ const routes = [
     name: 'settings',
     component: Settings,
     meta: {
-      requiresAuth: true,
+      //requiresAuth: true,
       title: 'Configuración'
     }
   },
@@ -75,7 +75,7 @@ const routes = [
     name: 'rooms',
     component: Rooms,
     meta: {
-      requiresAuth: true,
+      // //requiresAuth: true,
       title: 'Rooms'
     }
   },
@@ -84,7 +84,7 @@ const routes = [
     name: 'create-room',
     component: CreateRoom,
     meta: {
-      requiresAuth: true,
+      // //requiresAuth: true,
       title: 'Crear Room'
     }
   },
@@ -93,7 +93,7 @@ const routes = [
     name: 'room',
     component: Room,
     meta: {
-      requiresAuth: true,
+      //requiresAuth: true,
       title: 'Room'
     },
     props: true
@@ -103,7 +103,7 @@ const routes = [
     name: 'map',
     component: Map,
     meta: {
-      requiresAuth: true,
+      //requiresAuth: true,
       title: 'Mapa'
     }
   },
